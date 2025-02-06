@@ -19,8 +19,12 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #000000;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
 
 /* hero background image */
 .bgimage {
@@ -44,6 +48,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: #000000be;
 }
 
 /* about */
