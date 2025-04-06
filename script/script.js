@@ -25,7 +25,7 @@ function createSkillsFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card skillsText">
+                    <div class="card skillsText" data-cy="skill">
                         <div class="card-body">
                             <img src="./images/${item.image}" alt=${item.title}/>
                             <h4 class="card-title mt-3">${item.title}</h4>
@@ -61,7 +61,7 @@ function createPortfolioFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card portfolioContent">
+                    <div class="card portfolioContent" data-cy="portfolio-project">
                     <img class="card-img-top" src="images/${item.image}" style="width:100%" alt=${item.title}>
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
