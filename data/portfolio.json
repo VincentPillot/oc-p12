@@ -1,18 +1,18 @@
 [
     {
-        "image": "image1.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS.",
         "link": "https://github.com/VincentPillot/booki"
     },
     {
-        "image": "image2.png",
+        "image": "sophie-bluel.webp",
         "title": "Portfolio-architecte-sophie-bluel",
         "text": "Mise à jour du site statique pour le rendre dynamique et ajout d'une modal d'administration.",
         "link": "https://github.com/VincentPillot/oc-p7"
     },
     {
-        "image": "image3.png",
+        "image": "kasa.webp",
         "title": "Kasa",
         "text": "Création d'un site de résérvation de logement entre particuliers avec React.",
         "link": "https://github.com/VincentPillot/oc-p8"
